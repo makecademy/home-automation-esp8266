@@ -1,0 +1,24 @@
+doctype
+html
+  head
+    title Interface
+    link(rel='stylesheet', href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css")
+    link(rel='stylesheet', href="/css/interface.css")
+    meta(name='viewport', content='width=device-width, initial-scale=1')  
+
+    script(src="https://code.jquery.com/jquery-2.1.1.min.js")
+    script(src="/js/jquery.playSound.js")
+    script(src="/js/ajaxq.js")
+    script(src="/js/interface.js")
+  body
+    .container
+      h1 Alarm System
+      .row.voffset
+        .col-md-4
+          div Motion sensor: 
+        .col-md-4
+          div#motion No motion detected.
+      .row.voffset
+        .col-md-4
+          button.btn.btn-block.btn-lg.btn-danger#alarm Alarm Off
+

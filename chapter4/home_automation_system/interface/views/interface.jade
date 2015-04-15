@@ -1,0 +1,27 @@
+doctype
+html
+  head
+    title Interface
+    link(rel='stylesheet', href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css")
+    link(rel='stylesheet', href="/css/interface.css")
+    meta(name='viewport', content='width=device-width, initial-scale=1')  
+
+    script(src="https://code.jquery.com/jquery-2.1.1.min.js")
+    script(src="/js/ajaxq.js")
+    script(src="/js/interface.js")
+  body
+    .container
+      h1 Dashboard
+      .row.voffset
+        .col-md-4
+          div Lamp Control
+        .col-md-4
+          button.btn.btn-block.btn-lg.btn-primary#1 On
+        .col-md-4
+          button.btn.btn-block.btn-lg.btn-danger#2 Off
+      .row.voffset
+        .col-md-4
+          div#temperature Temperature: 
+        .col-md-4
+          div#humidity Humidity:
+
