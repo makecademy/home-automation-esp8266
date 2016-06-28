@@ -24,8 +24,8 @@ implementation written by Ivan Grokhotkov
 DHT dht(DHTPIN, DHTTYPE, 15);
 
 // WiFi parameters
-const char* ssid = "your_wifi_network_name";
-const char* password = "your_wifi_network_password";
+const char* ssid = "Jarex_5A";
+const char* password = "connect1337";
 
 // Create an instance of the server
 WiFiServer server(80);
